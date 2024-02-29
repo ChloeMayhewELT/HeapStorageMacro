@@ -25,7 +25,7 @@ let package = Package(
         // Depend on the Swift 5.9 release of SwiftSyntax
         .package(url: "https://github.com/apple/swift-syntax.git", from: "509.0.0"),
         .package(url: "https://github.com/pointfreeco/swift-macro-testing", .upToNextMinor(from: "0.2.2")),
-        .package(url: "https://github.com/pointfreeco/swift-composable-architecture", .upToNextMinor(from: "1.8.2"))
+        .package(url: "https://github.com/pointfreeco/swift-composable-architecture", .upToNextMinor(from: "1.9.0"))
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
